@@ -1,0 +1,55 @@
+.design-title {
+	font-family: $josefin
+}
+
+.link {
+	text-decoration: none
+}
+
+.btn-hammer {
+	@include button($gray-blue);
+	&:hover {
+	background-color: $gray-blue-hover;
+	}
+}
+
+.btn-lightbulb {
+	@include button($orange);
+	&:hover {
+	background-color: $orange-hover;
+	}
+}
+
+
+.btn-phone {
+	@include button($green);
+	&:hover {
+	background-color: $green-hover
+	}
+}
+
+.icon-size {
+	font-size: 100px;
+}
+
+.billboard {
+	height: 75em;
+}
+
+.bg {
+	background-color: #efb882;
+	background-image: url(../img/cork-board.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-text-color {
+	@include text($white);
+}
+
+.icon-lightbulb, .icon-phone, .icon-hammer {
+	@include icon(white);
+}
+
+
+

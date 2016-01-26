@@ -1,19 +1,88 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-	box-sizing: border-box;
-
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+.design-title {
+  font-family: "Josefin Sans", Arial, sans-serif;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
+.link {
+  text-decoration: none;
 }
 
+.btn-hammer {
+  background-color: #3f4e5d;
+  border-radius: 50%;
+  padding: 40px 15px 40px 15px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #141516;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  width: 222px;
+  margin: 0 auto;
+  vertical-align: center;
+  text-align: center;
+}
+
+.btn-hammer:hover {
+  background-color: #0c2335;
+}
+
+.btn-lightbulb {
+  background-color: #c65c4b;
+  border-radius: 50%;
+  padding: 40px 15px 40px 15px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #141516;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  width: 222px;
+  margin: 0 auto;
+  vertical-align: center;
+  text-align: center;
+}
+
+.btn-lightbulb:hover {
+  background-color: #56130b;
+}
+
+.btn-phone {
+  background-color: #37ba98;
+  border-radius: 50%;
+  padding: 40px 15px 40px 15px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #141516;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  width: 222px;
+  margin: 0 auto;
+  vertical-align: center;
+  text-align: center;
+}
+
+.btn-phone:hover {
+  background-color: #0e4f3c;
+}
+
+.icon-size {
+  font-size: 100px;
+}
+
+.billboard {
+  height: 75em;
+}
+
+.bg {
+  background-color: #efb882;
+  background-image: url(../img/cork-board.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-text-color {
+  color: #fff;
+  font-family: 'Josefin Sans', Arial sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.icon-lightbulb, .icon-phone, .icon-hammer {
+  color: white;
+  font-size: 5em;
+}

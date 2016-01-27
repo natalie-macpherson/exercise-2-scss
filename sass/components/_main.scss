@@ -1,7 +1,3 @@
-.design-title {
-	font-family: $josefin
-}
-
 .link {
 	text-decoration: none
 }
@@ -51,5 +47,10 @@
 	@include icon(white);
 }
 
+.design {
+	padding-top: 1em;
+}
 
-
+.design-title h1{
+	@include title($dark-blue);
+}

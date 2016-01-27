@@ -23,3 +23,14 @@
 	color: $color;
  	font-size: 5em;
 }
+
+@mixin title($color) {
+	text-align: center;
+	font-family: 'Josefin Sans', Arial sans-serif;
+	font-weight: 700;
+	font-size: 3.5em;
+	line-height: 1.3154;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+	color: #15012b;
+}

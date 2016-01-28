@@ -54,3 +54,72 @@
 .design-title h1{
 	@include title($dark-blue);
 }
+
+@media only screen and (min-width: 25em) {
+	.design-title h1  {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (min-width: 38em) {
+	.dbg {
+		background-size: 120% 200%;
+	}
+
+	.design-title h1  {
+		font-size: 5.5em;
+		padding-bottom: .5em;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.design-title h1 {
+		font-size: 5em;
+	}
+
+	.bg {
+		background-size: cover;
+	}
+
+	.btn-phone {
+		width: 262px;
+ }
+
+ .btn-hammer {
+		width: 262px;
+ }
+
+ .btn-lightbulb {
+		width: 262px;
+ }
+
+ .billboard {
+		height: 40em;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+
+	.bg {
+		background-size: cover;
+	}
+
+	.design-title h1 {
+		font-size: 5.5em;
+	}
+
+	.btn-phone {
+		width: 280px;
+ }
+
+ .btn-hammer {
+		width: 280px;
+ }
+
+ .btn-lightbulb {
+		width: 280px;
+ }
+}
+
+@media only screen and (min-width: 120em) {
+}

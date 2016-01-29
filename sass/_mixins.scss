@@ -4,11 +4,10 @@
   padding: 40px 15px 40px 15px;
   text-decoration: none;
   box-shadow: 5px 5px 5px #141516;
-  -webkit-transition: all 500ms linear;
 	transition: all 500ms linear;
 	width: 222px;
 	margin: 0 auto;
-
+	vertical-align: center;
 }
 
 @mixin text($color) {
@@ -31,5 +30,5 @@
 	line-height: 1.3154;
 	text-transform: uppercase;
 	padding-bottom: .5em;
-	color: #15012b;
+	color: $color;
 }

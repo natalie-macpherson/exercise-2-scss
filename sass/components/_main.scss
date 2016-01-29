@@ -3,24 +3,23 @@
 }
 
 .btn-hammer {
-	@include button($gray-blue);
+	@include button($grey-blue);
 	&:hover {
-	background-color: $gray-blue-hover;
+	background-color: darken($grey-blue, 20%);
 	}
 }
 
 .btn-lightbulb {
 	@include button($orange);
 	&:hover {
-	background-color: $orange-hover;
+	background-color: darken($orange, 20%);
 	}
 }
-
 
 .btn-phone {
 	@include button($green);
 	&:hover {
-	background-color: $green-hover
+	background-color: darken($green, 20%);
 	}
 }
 
@@ -51,75 +50,28 @@
 	padding-top: 1em;
 }
 
-.design-title h1{
+.design-title	h1 {
 	@include title($dark-blue);
-}
-
-@media only screen and (min-width: 25em) {
-	.design-title h1  {
-		font-size: 4em;
+	font-size: 2.5745rem;
+	line-height: 3.2750rem;
+	@media only screen and (min-width: 25em) {
+		font-size: 4rem;
+		line-height: 4.5rem;
 	}
-}
-
-@media only screen and (min-width: 38em) {
-	.dbg {
-		background-size: 120% 200%;
+	@media only screen and (min-width: 38em) {
+		font-size: 5rem;
+		line-height: 6.5rem;
 	}
-
-	.design-title h1  {
+	@media only screen and (min-width: 60em) {
+		font-size: 5rem;
+		line-height: 6.5rem;
+	}
+	@media only screen and (min-width: 90em) {
 		font-size: 5.5em;
-		padding-bottom: .5em;
+		line-height: 6.5rem;
 	}
 }
 
-@media only screen and (min-width: 60em) {
-	.design-title h1 {
-		font-size: 5em;
-	}
 
-	.bg {
-		background-size: cover;
-	}
 
-	.btn-phone {
-		width: 262px;
- }
 
- .btn-hammer {
-		width: 262px;
- }
-
- .btn-lightbulb {
-		width: 262px;
- }
-
- .billboard {
-		height: 40em;
-	}
-}
-
-@media only screen and (min-width: 90em) {
-
-	.bg {
-		background-size: cover;
-	}
-
-	.design-title h1 {
-		font-size: 5.5em;
-	}
-
-	.btn-phone {
-		width: 280px;
- }
-
- .btn-hammer {
-		width: 280px;
- }
-
- .btn-lightbulb {
-		width: 280px;
- }
-}
-
-@media only screen and (min-width: 120em) {
-}

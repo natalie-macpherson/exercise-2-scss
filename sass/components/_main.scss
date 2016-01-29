@@ -7,6 +7,12 @@
 	&:hover {
 	background-color: darken($grey-blue, 20%);
 	}
+	@media only screen and (min-width: 60em) {
+		width: 262px;
+	}
+	@media only screen and (min-width: 90em) {
+		width: 280px;
+	}
 }
 
 .btn-lightbulb {
@@ -14,12 +20,24 @@
 	&:hover {
 	background-color: darken($orange, 20%);
 	}
+	@media only screen and (min-width: 60em) {
+		width: 262px;
+	}
+	@media only screen and (min-width: 90em) {
+		width: 280px;
+	}
 }
 
 .btn-phone {
 	@include button($green);
 	&:hover {
 	background-color: darken($green, 20%);
+	}
+	@media only screen and (min-width: 60em) {
+		width: 262px;
+	}
+	@media only screen and (min-width: 90em) {
+		width: 280px;
 	}
 }
 
@@ -29,6 +47,9 @@
 
 .billboard {
 	height: 75em;
+	@media only screen and (min-width: 60em) {
+		height: 40em;
+	}
 }
 
 .bg {

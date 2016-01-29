@@ -18,6 +18,18 @@
   background-color: #161b20;
 }
 
+@media only screen and (min-width: 60em) {
+  .btn-hammer {
+    width: 262px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .btn-hammer {
+    width: 280px;
+  }
+}
+
 .btn-lightbulb {
   background-color: #c65c4b;
   border-radius: 50%;
@@ -32,6 +44,18 @@
 
 .btn-lightbulb:hover {
   background-color: #823529;
+}
+
+@media only screen and (min-width: 60em) {
+  .btn-lightbulb {
+    width: 262px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .btn-lightbulb {
+    width: 280px;
+  }
 }
 
 .btn-phone {
@@ -50,12 +74,30 @@
   background-color: #206b58;
 }
 
+@media only screen and (min-width: 60em) {
+  .btn-phone {
+    width: 262px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .btn-phone {
+    width: 280px;
+  }
+}
+
 .icon-size {
   font-size: 100px;
 }
 
 .billboard {
   height: 75em;
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard {
+    height: 40em;
+  }
 }
 
 .bg {

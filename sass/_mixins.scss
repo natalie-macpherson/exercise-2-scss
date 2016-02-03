@@ -12,7 +12,7 @@
 
 @mixin text($color) {
 	color: $color;
- 	font-family: 'Josefin Sans', Arial sans-serif;
+ 	font-family: $josefin;
  	text-transform: uppercase;
  	font-weight: 400;
 }
@@ -24,7 +24,7 @@
 
 @mixin title($color) {
 	text-align: center;
-	font-family: 'Josefin Sans', Arial sans-serif;
+	font-family: $josefin;
 	font-weight: 700;
 	font-size: 3.5em;
 	line-height: 1.3154;
